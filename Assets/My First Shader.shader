@@ -8,7 +8,7 @@ Shader "Custom/My First Shader"
 		_MainTex("Main Texture",2D)="white"{}
 	}
 
-		SubShader
+	SubShader
 	{
 		Pass
 		{
@@ -46,8 +46,8 @@ Shader "Custom/My First Shader"
 				return i;
 			}
 
-				//Supposed to output an RGBA color value for one pixel
-				//We're working with an opaque shader, so our shader just ignores the alpha channel
+			//Supposed to output an RGBA color value for one pixel
+			//We're working with an opaque shader, so our shader just ignores the alpha channel
 			float4 MyFragmentProgram(Interpolators i) :SV_TARGET //the output of the vertex program is used as input for the fragment program. That's why we're passing float4 position
 			{
 				//return float4(i.uv + 0.5,1,1) * _Tint;
