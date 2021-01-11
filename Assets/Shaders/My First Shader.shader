@@ -33,7 +33,7 @@ Shader "Custom/My First Shader"
 			};
 
 			//Has to return final coordinates of a vertex
-			//To draw a sphere our vertex program has to produce a correct vertex position.
+			//To draw a sphere(or any other object) our vertex program has to produce a correct vertex position.
 			//So we need to know the object-space position of the vertex. 
 			//We access it by adding a variable with the POSITION semantic
 			Interpolators MyVertexProgram(VertexData v)
