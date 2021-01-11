@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Material
+  m_Name: Numbers Material
   m_Shader: {fileID: 4800000, guid: 5f9e6d854e1fa1c49b599ab6857e04cd, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -75,4 +75,4 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Tint: {r: 0.06883157, g: 0.6037736, b: 0.06550375, a: 1}
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}
